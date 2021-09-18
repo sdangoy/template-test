@@ -1,0 +1,8 @@
+html {
+    box-sizing: border-box; /* prevents padding creating extra height or width to the page (removes horizontal scroll bar) */
+}
+
+body {
+    margin: 0;
+    min-height: 100vh; /* always stretch to full height of screen, even if content doesn't stretch to full height */
+}
